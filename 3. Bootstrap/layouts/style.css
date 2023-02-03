@@ -1,0 +1,11 @@
+.container{
+    background-color: yellow;
+}
+
+.container-fluid{
+    background-color: hotpink;
+}
+
+h1 {
+    text-align: center;
+}
