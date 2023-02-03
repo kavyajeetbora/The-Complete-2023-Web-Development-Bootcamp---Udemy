@@ -1,0 +1,33 @@
+/*********************HTML element selectors **********************/
+h1 {
+    color: red;
+    font-size:200px;
+}
+body{
+    background-color: #EDDBC7;
+}
+
+img:hover{
+    background-color: pink;
+}
+
+
+/*********************class selectors **********************/
+.bacon {
+    background-color: green;
+}
+
+.broccoli {
+    background-color: red;
+    height: 200px;
+}
+
+.circular {
+    border-radius: 100%;
+    height: 200px;
+}
+
+/*********************ID selectors **********************/
+#heading{
+ color:blue;
+}
