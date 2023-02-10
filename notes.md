@@ -65,3 +65,33 @@ There are 2 ways of setting the font size: one is **static** and other one is **
 2. [Color Palettes for web designers and artists](https://colorhunt.co/)
 
 3. [Sample website showing the resume of a web designer](https://web.archive.org/web/20180819202235js_/http://seanhalpin.io/)
+
+
+## Hiearchy of CSS selectors
+
+```html
+<h1 id="heading" class="title" style="color:orange">Hello World</h1>
+```
+```css
+h1 {
+    color:red;
+    color:green;
+}
+
+.title {
+    color:yellow;
+}
+
+#heading {
+    color: blue;
+}
+```
+
+Here in this code the priority of styling will be:
+1. Inline style that will override all the other styles
+2. css id will override next
+3. css class tag
+4. html element tag
+    - Inside this the styles will be read top to bottom, so color green will override the red
+
+ 

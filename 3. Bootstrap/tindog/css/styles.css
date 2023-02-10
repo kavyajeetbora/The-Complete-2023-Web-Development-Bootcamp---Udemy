@@ -25,10 +25,18 @@ p {
     padding: 1rem 0 0 0;
 }
 
-#title{
+#title{   
+    text-align: left;
+}
+
+/* Sections */
+.coloured-section {
     background-color: #ff4c68;
     color: #fff;
-    text-align: left;
+}
+
+.white-section {
+    background-color: #fff;
 }
 
 /* Navbar styling */
@@ -86,7 +94,6 @@ p {
 /* Features */
 
 #features {
-    background-color: #fff;
     position: relative;
 }
 
@@ -107,7 +114,6 @@ p {
 /* Testimonials Section */
 #testimonials {
     background-color: #ef8172;
-    color: #fff;
 }
 
 .testimonial-heading {
@@ -158,13 +164,10 @@ p {
     margin: 5% 5% auto 5%;
 }
 
-
-
 /* call-to-action */
 
 .cta{
-    background-color: #ff4c68;
-    padding: 10% 5%;
+    padding: 7% 15%;
 }
 
 .cta-button{
@@ -174,7 +177,7 @@ p {
 /* Copyright */
 
 .copyright {
-    margin: 7% 5%;
+    margin: 7% 15%;
 }
 
 .copyright-icons {
