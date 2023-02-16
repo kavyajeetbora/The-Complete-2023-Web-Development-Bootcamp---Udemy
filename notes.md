@@ -1,5 +1,8 @@
 # Introduction to html
 
+
+All resources of this course can be found [here](https://www.appbrewery.co/p/web-development-course-resources)
+
 ## Writing our first web page
 
 ```html

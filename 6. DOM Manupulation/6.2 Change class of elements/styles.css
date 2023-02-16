@@ -1,0 +1,33 @@
+h1 {
+  color: red;
+}
+
+
+.container {
+  height: 10rem;
+  width: 10rem;
+  text-align: center;
+}
+
+.box1 {
+  background-color: blanchedalmond;
+}
+
+.box2 {
+  background-color: aqua;
+}
+
+.box3 {
+  background-color:azure;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.huge {
+  font-size: 10rem;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
