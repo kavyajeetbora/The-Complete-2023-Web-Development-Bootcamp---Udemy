@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    background-color: #4D455D;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.w {
+    background-image: url("images\\tom1.png");
+}
+
+.a {
+    background-image: url("images\\tom2.png");
+}
+
+.s {
+    background-image: url("images\\tom3.png");
+}
+
+.d {
+    background-image: url("images\\tom4.png");
+}
+
+.j {
+    background-image: url("images\\snare.png");
+}
+
+.k {
+    background-image: url("images\\crash.png");
+}
+
+.l{
+    background-image: url("images\\kick.png");
+}
+
+.drum {
+    font-size: 2.5rem;
+    margin: 30px;
+    vertical-align: bottom;
+    width: 150px;
+    height: 150px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: white;
+    color: #FFB84C;
+    border-radius: 10%;
+    border: 10px solid #635985;
+    font-weight: bold;
+}
+
+
+
