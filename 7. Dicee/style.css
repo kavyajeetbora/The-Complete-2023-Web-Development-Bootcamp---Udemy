@@ -1,0 +1,41 @@
+body {
+    background-color: #4D455D;
+}
+h3 { 
+    font-size: 3rem;
+    font-family: 'Shantell Sans', cursive;
+    color: #F5E9CF;
+}
+
+a {
+    color: #F5E9CF;
+    font-family: 'Shantell Sans', cursive;
+}
+a:hover{
+    color: #FF6E31;
+}
+
+i {
+    color: #E96479;
+}
+
+.heading {
+    margin: 60px auto;
+    color: #7DB9B6;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 6.5rem;
+    font-weight: bold;
+}   
+
+.row {
+    margin: 30px auto 100px;
+}
+
+.player1 {
+    text-align: right;
+    padding-right: 50px;
+}
+.player2 {
+    text-align: left;
+    padding-left: 50px
+}
