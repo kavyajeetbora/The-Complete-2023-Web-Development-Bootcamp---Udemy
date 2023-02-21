@@ -35,6 +35,9 @@ h1 {
 .l{
     background-image: url("images\\kick.png");
 }
+.set {
+    margin-bottom: 100px;
+}
 
 .drum {
     font-size: 2.5rem;
@@ -52,6 +55,11 @@ h1 {
 
 .pressed {
     opacity: 0.5;
+}
+
+footer {
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 

@@ -98,3 +98,13 @@ Here in this code the priority of styling will be:
     - Inside this the styles will be read top to bottom, so color green will override the red
 
  
+# jQuery
+
+[CDN for jQuery](https://developers.google.com/speed/libraries#jquery)
+
+Note: Always place the jQuery script above the javascript script while importing
+
+The jQuery code and the bootstrap code that we try to import from CDN are nothing but bunch of code. Only thing is that they are minified version where all comments and whitespaces are removed to reduce the filesize and make the loading faster. 
+
+We can also use to minify our code to compress the file size using [this](https://www.minifier.org/) online tool
+

@@ -1,0 +1,13 @@
+body {
+    background-color: aquamarine;
+}
+
+.big-title {
+    font-size: 10rem;
+    color: blue;
+    font-family: cursive;
+}
+
+.border {
+    border: 10px solid rebeccapurple;
+}
