@@ -50,5 +50,9 @@ h1 {
     font-weight: bold;
 }
 
+.pressed {
+    opacity: 0.5;
+}
+
 
 
