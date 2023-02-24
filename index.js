@@ -33,8 +33,8 @@ $('button').click(function(event) {
 
         // Check inputs when the sequence len == userSequence
         if (playerSequence.length===gameSequence.length && validInputs) {      
-                console.log('Next Level');
-                setTimeout(function() {nextLevel();}, 800);
+            console.log('Next Level');
+            setTimeout(function() {nextLevel();}, 800);
         }
 
         if (!validInputs) {
@@ -45,6 +45,8 @@ $('button').click(function(event) {
             console.log("game",gameSequence);
         }
     }
+
+    console.log(stage);
 });
 
 function checkInput() {
@@ -110,8 +112,6 @@ function restartGame() {
         document.querySelector('h1').innerHTML="Press any key to restart";
         stage = "newGame";
     }, 2000);
-
-    
 }
 
 function resetAll() {
