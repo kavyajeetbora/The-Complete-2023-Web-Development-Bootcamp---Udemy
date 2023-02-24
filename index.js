@@ -105,11 +105,13 @@ function playSound(color) {
 function restartGame() {
 
     resetAll();
-    stage = "newGame";
     document.querySelector('h1').innerHTML="Game Over";
     setTimeout(function(){
         document.querySelector('h1').innerHTML="Press any key to restart";
+        stage = "newGame";
     }, 2000);
+
+    
 }
 
 function resetAll() {
