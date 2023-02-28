@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    background-color: antiquewhite;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Tilt Neon', cursive;
+}
+
+/* First method */
+/* .container {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+} */
+
+h1 {
+    margin-bottom: 100px;
+}
+
+.input {    
+    margin: 1rem;
+}
+
+button {
+    margin-top: 20%;
+}
